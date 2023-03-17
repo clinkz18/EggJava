@@ -8,9 +8,7 @@ public class Ejercicio3 {
             String frase;
             System.out.println("Ingrese una frase");
             frase = leer.next();
-            frase = toUpperCase(frase);
-            System.out.println(frase);
-            frase = toLowerCase(frase);
-            System.out.println(frase);
+            System.out.println(toUpperCase(frase));
+            System.out.println(toLowerCase(frase));
     }
 }
