@@ -9,7 +9,6 @@ public class Ejercicio8 {
         
         for (i=0; i<=lado; i++){
             for (j=0; j<=lado; j++){
-                
                 if ((i>=1 && i<=(lado-1)) && (j>=1 && j<=(lado-1))){
                     System.out.print("  ");
                 }else 
